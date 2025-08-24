@@ -1,34 +1,31 @@
-# Gradle files
-.gradle/
-build/
+# Built things
+_Debug/
+Compiled/
 
-# Local configuration file (sdk path, etc)
-local.properties
+# AudioCache can be rebuilt from sources
+AudioCache/
 
-# Log/OS Files
-*.log
+# Lockfile
+_OpenInEditor.lock
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+# User settings
+Game.agf.user
+*.crm.user
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+# Backups
+Game.agf.bak
+backup_acsprset.spr
 
-# Keystore files
-*.jks
-*.keystore
+# Memory dumps
+*.dmp
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Temporary files
+# temporarily created during sprite or room background compression
+~aclzw.tmp
+# temporary, main game data, before getting packed into exe
+game28.dta
+# temporary build of the game before being moved to Compiled/ folder
+*.exe
 
-# Android Profiling
-*.hprof
+# Log files
+warnings.log
